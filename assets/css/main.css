@@ -8,5 +8,12 @@ body {
 h1 {
 	font-size: 80px;
 	font-family: 'Libre Baskerville', serif;
+	font-weight: normal;
 	text-align: center;
+}
+
+em {
+	font-style: normal;
+	font-weight: bold;
+	color: #00B000;
 }
