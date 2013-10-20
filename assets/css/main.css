@@ -1,19 +1,60 @@
 
 @import url(http://fonts.googleapis.com/css?family=Libre+Baskerville);
-
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro|Sanchez|Exo);
 body {
-	margin-top: 120px;
+    font-family: ff-kievit-web, source-sans-pro, 'Source Sans Pro', 'Helvetica Neue', HelveticaNeue, Helvetica, sans-serif;
+    font-size:16px;
 }
 
-h1 {
-	font-size: 80px;
-	font-family: 'Libre Baskerville', serif;
-	font-weight: normal;
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Sanchez', Georgia, Times, serif;
+}
+
+h1.hero {
+    font-weight: normal;
 	text-align: center;
+    font-size: 80px;
+    margin-top: 120px;
 }
 
-em {
+.logo {
+    font-family: 'Exo', sans-serif;
+    color:#4E3F30;
+}
+
+.logo em {
 	font-style: normal;
-	font-weight: bold;
-	color: #00B000;
+	color: #0CA5B0;
+}
+
+.navbar .logo {
+    font-size:40px;
+}
+
+.navbar {
+    font-size:20px;
+    background-color:#fafafa;
+    border:none;
+}
+
+p {
+
+    margin-bottom: 36px;
+    line-height: 50px;
+    font-size: 22px;
+    color: #A5B3AA;
+}
+
+.panel-title {
+    font-size:26px;
+}
+
+.panel-default {
+    border-color:#A5B3AA;
+    border-radius:0;
+}
+
+.panel-default > .panel-heading {
+    border-color:#A5B3AA;
+    background-color:#fafafa;
 }
